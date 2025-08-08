@@ -1,0 +1,126 @@
+.contenedorTurnos{
+    margin: auto;
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.turnoUsuario{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    height: 63px;
+    border-radius: 12px;
+    transition: box-shadow 0.2s ;
+}
+
+.turnoUsuario:hover{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 2px;
+}
+
+.infoTurno{
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+}
+
+
+.bottonCancelar{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgb(180, 7, 7);
+    border-radius: 36px;
+    border: none;
+    overflow: hidden;
+    margin-left: 36px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bottonCancelar:disabled {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed; /* Cambia el cursor para que se vea que no se puede clicar */
+     /* Opcional, para que se vea más apagado */
+}
+
+.bottonCancelar:disabled:hover {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed; /* Cambia el cursor para que se vea que no se puede clicar */
+}
+
+.bottonCancelar:hover{
+    background-color: rgb(124, 7, 7);
+    color: rgb(199, 193, 193);
+}
+
+.spanIDTurno{
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+    padding: 4px 13px;
+    background-color: rgb(36, 17, 130);
+    border-radius: 15px;
+    border-radius: 10px;
+
+}
+
+.spanID{
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+    padding: 4px 13px;
+    background-color: rgb(84, 20, 139);
+    border-radius: 15px;
+    border-radius: 10px;
+
+}
+
+.spanDate{
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+    padding: 4px 13px;
+    background-color: rgb(156, 52, 24);
+    /* background-color: #00703C; */
+    border-radius: 15px;
+    border-radius: 10px;
+
+}
+
+.spanTime{
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+    padding: 4px 13px;
+    background-color: rgb(234, 52, 76);
+    /* background-color: #00703C; */
+    border-radius: 10px;
+}
+
+.spanStatus{
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+    padding: 4px 13px;
+    background-color:rgb(224, 117, 23);
+    /* background-color: #00703C; */
+    border-radius: 15px;
+    border-radius: 10px;
+
+}
+
+.infoTurnoStatus{
+    font-size: 23px;
+    font-weight: 1000;
+    color: rgb(31, 159, 3);
+}
+
+/* le sacamos el zoom al SweetAlert */

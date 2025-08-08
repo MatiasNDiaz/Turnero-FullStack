@@ -1,0 +1,23 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "P22 Aragon W00 Regular";
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-image:  url("./assets/obras-davinci2.webp");
+  color: rgba(0, 0, 0, 0.87);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.849);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  padding-top: 6px;
+  background-color: rgba(0, 0, 0, 0.324)
+}
+
+

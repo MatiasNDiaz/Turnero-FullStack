@@ -1,0 +1,135 @@
+
+.contenedorForm{
+    display: flex;
+    margin: auto;
+    width: 1400px;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+    padding-top: 26px;
+    animation:entradaDesdeArriba .6s ease ;
+    overflow: hidden;
+
+}
+
+.imagenPa{
+    height: 625px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid white;
+    border-left: none;
+}
+
+.contenedorDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(151, 155, 151);
+    padding: 20px 0px 30px 0 ;
+    height: 625px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 0 16px 4px;
+    border-bottom-right-radius: 0;
+    padding-top: 60px;
+    padding-bottom: 20;
+    border: 2px solid white;
+    border-right: none;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.input{
+    background-color: white;
+    height: 25px;
+    width: 320px;
+    border-radius: 4px;
+    color: black;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+.label{
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+}
+
+.p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    line-height: 3px;
+    animation: cambioColor 1.4s infinite alternate;
+}
+
+.boton{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 19px;
+    background-color: rgb(5, 107, 66);
+    border: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border-radius: 10px;
+    margin-top: 10px;
+} 
+
+.boton:hover{
+    background-color: rgb(5, 83, 52);
+} 
+
+.boton:active{
+    background-color: rgb(2, 117, 71);
+    color: rgb(185, 175, 175);
+    
+} 
+
+.pEnlaceRegister{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.enlaceRegister{
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 21px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+
+@keyframes entradaDesdeArriba {
+    from {
+        transform: translateY(-200%);
+    }
+    to{
+        transform: translateY(0);
+
+    }
+}
+
+@keyframes cambioColor {
+    0% {
+        color: rgb(254, 0, 0); /* rojo */
+    }
+    50% {
+        color: rgb(0, 0, 0); /* verde */
+    }
+    100% {
+        color: rgb(255, 0, 0); /* azul */
+    }
+}

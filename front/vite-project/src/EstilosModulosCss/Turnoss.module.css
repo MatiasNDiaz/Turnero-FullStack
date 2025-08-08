@@ -1,0 +1,52 @@
+.h2{
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(4, 134, 81);
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    margin-top: 140px;
+    border: none;
+    overflow: hidden;
+    border: 2px solid rgb(232, 225, 225);
+    animation:entradaDesdeArriba .6s ease ;
+}
+
+.divContenedorTurnos{
+    background-color: #b0b0b0db;
+    width: 1260px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 0 15px 8px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    animation:entradaDesdeIzquierda 1s ease ;
+}
+
+@keyframes entradaDesdeArriba {
+    from {
+        transform: translateY(-200%);
+    }
+    to{
+        transform: translateY(0);
+
+    }
+}
+
+@keyframes entradaDesdeIzquierda{
+    from {
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateX(0);
+
+    }
+}

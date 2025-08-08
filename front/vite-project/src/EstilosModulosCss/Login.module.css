@@ -1,0 +1,172 @@
+.contenedorDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(156, 150, 150);
+    padding: 40px 30px;
+    width: 510px;
+    height: 600px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 16px 4px;
+    margin-top: 40px;
+    margin-bottom: 60px;    
+    animation:entradaDesdeIzquierda .6s ease;
+    overflow: hidden; 
+    position: relative;
+    border: 2px solid white;
+    z-index: 2;
+    
+}
+
+/* Bordes animados con gradiente */
+
+/* Borde animado */
+.contenedorDiv::before {
+    content: '';
+    position: absolute;
+    width: 140px; /* Más grande porque el form es más grande */
+    height: 160%;
+    background-image: linear-gradient(180deg, rgb(111, 255, 121), rgb(7, 235, 37));
+    animation: rotBG 3s linear infinite;
+    transition: all 0.2s linear;
+    z-index: 0;
+}
+
+/* Fondo para tapar el centro */
+.contenedorDiv::after {
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background: rgb(156, 150, 150); /* El mismo fondo que tu contenedor */
+    border-radius: 12px;
+    z-index: 1;
+}
+
+/* La animación de rotación */
+@keyframes rotBG {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Para que el contenido esté por encima */
+.contenedorDiv > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+.imagenPa{
+    height: 333px;
+    width: 318px;
+    border: 2px solid white;
+    margin-bottom: 15px;
+    margin-top: 53px;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    background-color: white;
+    border: none;
+    overflow:hidden;
+    height: 20px;
+    width: 300px;
+    border-radius: 4px;
+    color: black;
+    overflow: hidden;
+    outline: none;
+}
+
+.label{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    line-height: 8px;
+    animation: cambioColor 1.4s infinite alternate;
+}
+
+.h2{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.boton{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 19px;
+    background-color: rgb(5, 107, 66);
+    border: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border-radius: 10px;
+    margin-top: 10px;
+} 
+
+.boton:hover{
+    background-color: rgb(5, 83, 52);
+} 
+
+.boton:active{
+    background-color: rgb(2, 52, 32);
+    color: rgb(185, 175, 175);
+} 
+
+.enlaceRegister{
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(58, 62, 167);
+    text-decoration: none;
+}
+
+.pEnlaceRegister{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+/* Animación */
+@keyframes cambioColor {
+    0% {
+        color: rgb(254, 0, 0); /* rojo */
+    }
+    50% {
+        color: rgb(0, 0, 0); /* verde */
+    }
+    100% {
+        color: rgb(255, 0, 0); /* azul */
+    }
+}
+
+@keyframes entradaDesdeIzquierda{
+    from {
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateX(0);
+
+    }
+}
+
