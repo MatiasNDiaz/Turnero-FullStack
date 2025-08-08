@@ -93,8 +93,9 @@ DB_ENTITIES=src/entities/**/*.ts  # Ruta a las entidades de TypeORM
 
 ### 3. Instalar dependencias
 
-en la carpeta del back: npm install
-en la carpeta del fron (fron/vite-project): npm install
+en la carpeta back: npm install
+
+en la carpeta front (front/vite-project): npm install
 
 ---
 
