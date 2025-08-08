@@ -148,7 +148,24 @@ Para iniciar el frontend (en vite-project): npm run dev
 
 ---
 
+
+## 🎓 Sobre este proyecto
+
+Este Turnero fue desarrollado como parte del **Bootcamp de Soy Henry**🚀🌟, donde aprendí a construir aplicaciones full stack reales usando tecnologías modernas. 
+
+Fue una gran oportunidad para poner en práctica conceptos de backend, frontend, bases de datos y buenas prácticas de desarrollo.
+
+---
+
+## 🙌 ¡Gracias por visitar el repositorio!
+
+Si te gustó el proyecto o querés aportar, no dudes en dejar un ⭐ o abrir un *issue* o *pull request*. ¡Toda colaboración suma!
+
+---
+
+*Desarrollado con ❤️ y muchas ganas de seguir aprendiendo.*
+
 ### 🧑‍💻 Autor
-Matías N Díaz
+Matías Nahuel Diaz
 [GitHub](https://github.com/MatiasNDiaz) | [LinkedIn](https://www.linkedin.com/in/matias--diaz/)
 
