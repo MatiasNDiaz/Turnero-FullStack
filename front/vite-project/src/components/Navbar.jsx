@@ -1,6 +1,6 @@
 import logo from '../assets/SuperLogoChatGPT.png';
 import logo2 from '../assets/iconoLogin.png';
-import Swal from 'sweetalert2';
+import Swal from "sweetalert2"
 import { Link, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { UserContext } from '../context/useContext';

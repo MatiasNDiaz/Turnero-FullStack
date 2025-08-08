@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from "react";
-import axios from "axios"
+import axios from "axios";
 
 // "Listado de productos en la bodega" o "menu de productos" <-- analogia 
 export const UserContext = createContext({
