@@ -125,7 +125,7 @@ Para iniciar el frontend (en vite-project): npm run dev
 
 ---
 
-### Imagenes de cortecia de la Aplicación:
+### Imagenes de cortesia de la Aplicación:
 
 <img width="1899" height="973" alt="image" src="https://github.com/user-attachments/assets/d230755e-1128-4e62-9884-1b5cee93a822" />
 
